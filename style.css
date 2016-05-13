@@ -1,27 +1,27 @@
-body {
-
+#picone {
+    height: 1000px;
+    width: 1500px;
 	background-image: url("img/start.png");
-    background-size: cover;
-    background-position: center center;
+    background-size: 1000px  1000px; 
+    float: center center;
 	font-family: monospace;
-    background-size: 1250px 750px;
 }
 
 /*Stuff below governs the start screen*/
 
-.titleContent {
+#titleContent {
 	margin: 10% auto;
     text-align: center;
 }
 
-.splashTitle {
+#Title {
 	color: #fff;
     font-size: 8em;
     text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
-.button {
+#stbutton {
 	border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
@@ -34,13 +34,3 @@ body {
     background-color: #383838;
     color: #abc;
   }
-
-
-
-/*Stuff below governs the Explore screen*/
-
-#exploreBody {
-	background-image: url("img/exploreHome1.jpg");
-	background-position: bottom center;
-
-}
