@@ -1,6 +1,6 @@
 body {
 
-	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
+	background-image: url("https://st2.openlistings.com/images/properties/v2/56c8f1316b16b1e1eb5e6565/x/880/56ca7d576b16b14785e5bcca.jpg");
     background-size: cover;
     background-position: center center;
 	font-family: monospace;
@@ -15,17 +15,17 @@ body {
 }
 
 .splashTitle {
-	color: #fff;
+	color: blue;
     font-size: 8em;
     text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
-.button {
+.stbutton {
 	border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
-    font-size: 5em;
+    font-size: 6em;
     text-decoration: none;
     background-color: #abc;
     box-shadow: 15px 15px 80px #555;
@@ -40,7 +40,36 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/exploreHome1.jpg");
+	background-image: url("http://electhouse.com/wp-content/uploads/2016/01/modern-orange-kitchen-design-ideas.jpg");
 	background-position: bottom center;
 
+}
+
+.button {
+    border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #abc;
+    box-shadow: 15px 15px 80px #555;
+    position: absolute;
+}
+
+.right {
+    right: 0px;
+    top: 350px;
+}
+
+.left {
+    left: 0px;
+    top: 350px;
+}
+
+.top {
+    top: 0px;
+}
+
+.bottom {
+    bottom: 0px;
 }
