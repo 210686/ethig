@@ -1,6 +1,6 @@
 body {
 
-	background-image: url("https://st2.openlistings.com/images/properties/v2/56c8f1316b16b1e1eb5e6565/x/880/56ca7d576b16b14785e5bcca.jpg");
+	background-image: url("img/start.jpg");
     background-size: cover;
     background-position: center center;
 	font-family: monospace;
@@ -21,7 +21,7 @@ body {
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
-.stbutton {
+#stbutton {
 	border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
@@ -30,17 +30,11 @@ body {
     background-color: #abc;
     box-shadow: 15px 15px 80px #555;
 }
-  a.button:hover {
-    background-color: #383838;
-    color: #abc;
-  }
-
-
 
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("http://electhouse.com/wp-content/uploads/2016/01/modern-orange-kitchen-design-ideas.jpg");
+	background-image: url("img/pic1.jpg");
 	background-position: bottom center;
 
 }
@@ -67,9 +61,97 @@ body {
 }
 
 .top {
-    top: 0px;
+    top: 8px;
+    left: 640px;
 }
 
 .bottom {
-    bottom: 0px;
+    bottom: 8px;
+    right: 640px;
+}
+
+#puzfive {
+    height: 90px;
+    width: 1px;
+    position: absolute;
+    right: 175px;
+    bottom: 460px;
+    opacity: 0.03;
+}
+
+#puzsix {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: 760px;
+    top: 411px;
+    opacity: 0.1;
+}
+
+.hint {
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    bottom: 465px;
+}
+
+#hone {
+    right: 5px;
+}
+
+#htwo {
+    left: 975px;
+}
+
+#hammer {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 510px;
+    bottom: 110px;
+    opacity: 0.025;
+}
+
+#etwo {
+    width: 180px;
+    height: 135px;
+    position: absolute;
+    right: 745px;
+    top: 225px;
+    opacity: 1;   
+    background-color: black;
+}
+
+.endtext {
+    font-size: 100px;
+    text-align: center;
+}
+
+.hennano {
+    color: red;
+    height: 880px;
+    width: 1440px;
+    background-image: url("img/fire.gif-c200");
+    background-size: 1440px 880px;
+    position: absolute;
+}
+
+.snow {
+    background-image: url("img/snow.gif");
+    font-size: 100px;
+    color: blue;
+    height: 880px;
+    width: 1440px;
+    background-size: 1440px 880px;
+    position: absolute;
+}
+
+.forest {
+    background-image: url("img/leaves.gif");
+    font-size: 100px;
+    color: green;
+    height: 880px;
+    width: 1440px;
+    background-size: 1440px 880px;
+    position: absolute;
 }
